@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>LOGIN</title>
+        <!-- 외부 스타일 시트 -->
+        <link rel="stylesheet" href="login.css">
+        <!-- 내부 스타일 시트 -->
+        <style>
+            h1 {
+                color: darkblue;
+                text-align: left;
+            }
+            
+            .login_inputs {
+                font-size: 30px;
+            }
+
+            #login_btn {
+                font-size: 30px;
+                width: 100px;
+                height: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="color: darkred; text-align: center;">Login</h1> <!-- 인라인 스타일 -->
+        <form>
+            ID : <input class="login_inputs" type="text" style="font-size: 25px;">
+            <br>
+            PW : <input class="login_inputs" type="password" style="font-size: 25px;">
+            <br>
+            <input id="login_btn" type="button" value="login" style="font-size: 25px; width: 100px; height: 30px;">
+        </form>
+    </body>
+</html>
